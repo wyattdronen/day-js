@@ -3,3 +3,5 @@ Simple calendar application that allows the user to save events for each hour of
 ![Alt text](./assets/images/schedule.jpg?raw=true "screenshot")
 
 
+link to site:
+https://wyattdronen.github.io/day-js/
