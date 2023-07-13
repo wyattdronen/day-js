@@ -3,7 +3,17 @@ body {
     font-size: 16px;
     line-height: 1;
   }
-  
+  .big-top {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+    }
+    .description{
+    white-space: pre-wrap;
+    }
+    
   textarea{
     background: transparent;
     border: none;
@@ -12,7 +22,6 @@ body {
     border-left: 1px solid black;
     padding: 10px;
   }
-  
   
   .time-block{
     text-align: center;
@@ -37,12 +46,27 @@ body {
   }
   
   .present {
-    background-color: #ff6961;
+    background-color: #ed564e;
     color: white;
   }
   
   .future {
-    background-color: #77dd77;
+    background-color: #6de16d;
     color: white;
   }
+
+  .saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #086cf9;
+    color: white;
+  }
+
+ .saveBtn i:hover {
+    font-size: 20px;
+   transition: all .3s ease-in-out;
+  }
+      
+    
   
